@@ -395,7 +395,7 @@ console.log("data : ", data);
 
  $.ajax({
     type: 'POST',
-    url: 'https://docs.google.com/forms/u/3/d/e/1FAIpQLSdcPGEXctXsRHtN4ZKeMrfzXNOrmhYKng_0vDUov3YhPIXEjw/formResponse',
+    url: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLScPUZ8eYW4rtzT95GP_p9oJaLmFlPNbsnQc7xEt-vyNfh9q9Q/formResponse',
     data: data,
     contentType: 'application/json',
     dataType: 'jsonp',
