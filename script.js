@@ -422,7 +422,7 @@ function goBack() {
     jQuery('.mm-survey-results').slideUp();
   });
 }
-// function checkAnswers() {
+function checkAnswers() {
 //   // 設定標記是否全部填寫
 //   let allAnswersFilled = true;
   
@@ -451,4 +451,5 @@ function goBack() {
 
 //   // 回傳是否全部填寫
 //   return allAnswersFilled;
-// }
+	return true;
+}
